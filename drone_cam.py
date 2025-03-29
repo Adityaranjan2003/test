@@ -8,7 +8,7 @@ picam2.configure(picam2.create_still_configuration())
 picam2.start()
 
 # Define the save path
-SAVE_PATH = "/home/pi/saved_images/"  # Change this path if needed
+SAVE_PATH = "img/"  # Change this path if needed
 
 # Capture image function
 def capture_and_save_image():
